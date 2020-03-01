@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title> EventMine - Dashboard </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<link rel="stylesheet" href="css/aos.css">
+
+	<link rel="stylesheet" href="css/ionicons.min.css">
+
+	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
+	<link rel="stylesheet" href="css/jquery.timepicker.css">
+
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+		<div class="container-fluid px-md-4	">
+			<a class="navbar-brand" href="index.html">EventMine</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+				aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span> Menu
+			</button>
+
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="dashboard.html" class="nav-link">Dashboard</a></li>
+					<li class="nav-item active"><a href="events.html" class="nav-link">Browse Events</a></li>
+					<li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+					<li class="nav-item cta mr-md-1"><a href="index.html" class="nav-link">Sign-Out</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- END nav -->
+
+
+	<div class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.jpg');"
+		data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row no-gutters slider-text align-items-end justify-content-start">
+				<div class="col-md-12 ftco-animate text-center mb-5">
+					<p class="breadcrumbs mb-0"><span class="mr-3"><a href="index.html">Home <i
+									class="ion-ios-arrow-forward"></i></a></span> <span>Job Post</span></p>
+					<h1 class="mb-3 bread">Browse Events</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center mb-5">
+				<div class="col-md-7 heading-section text-center ftco-animate">
+					<span class="subheading">Events Categories</span>
+					<h2 class="mb-0">Top Categories</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 ftco-animate">
+					<ul class="category text-center">
+						<li><a href="#">Website & Software<br><span class="number">15</span> <span>Events</span><i
+									class="ion-ios-arrow-forward"></i></a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 ftco-animate">
+					<ul class="category text-center">
+						<li><a href="#"> Food <br><span class="number">27</span> <span>Events</span><i
+									class="ion-ios-arrow-forward"></i></a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 ftco-animate">
+					<ul class="category text-center">
+						<li><a href="#">Outdoor <br><span class="number">11</span> <span>Events</span><i
+									class="ion-ios-arrow-forward"></i></a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 ftco-animate">
+					<ul class="category text-center">
+						<li><a href="#">Graphics & UI/UX Design<br><span class="number">8</span> <span>Open
+									position</span></span><i class="ion-ios-arrow-forward"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-section ftco-no-pb bg-light">
+		<div class="container">
+			<div class="row justify-content-center mb-4">
+				<div class="col-md-7 text-center heading-section ftco-animate">
+					<span class="subheading">Browse Events</span>
+					<h2 class="mb-4">Advance Search</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="ftco-search">
+					<div class="row">
+						<div class="col-md-12 nav-link-wrap">
+							<div class="nav nav-pills text-center" id="v-pills-tab" role="tablist"
+								aria-orientation="vertical">
+								<a class="nav-link active mr-md-1" id="v-pills-1-tab" data-toggle="pill"
+									href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">Find
+									Event</a>
+							</div>
+						</div>
+						<div class="col-md-12 tab-wrap">
+
+							<div class="tab-content p-4" id="v-pills-tabContent">
+
+								<div class="tab-pane fade show active" id="v-pills-1" role="tabpanel"
+									aria-labelledby="v-pills-nextgen-tab">
+									<form action="#" class="search-job">
+										<div class="row no-gutters">
+											<div class="col-md mr-md-2">
+												<div class="form-group">
+													<div class="form-field">
+														<div class="icon"><span class="icon-briefcase"></span>
+														</div>
+														<input type="text" class="form-control"
+															placeholder="eg. Hackathon. Concerts">
+													</div>
+												</div>
+											</div>
+											<div class="col-md mr-md-2">
+												<div class="form-group">
+													<div class="form-field">
+														<div class="select-wrap">
+															<div class="icon"><span class="ion-ios-arrow-down"></span>
+															</div>
+															<select name="" id="" class="form-control">
+																<option value="">Category</option>
+																<option value="">Website & Software</option>
+																<option value="">Outdoors</option>
+																<option value="">Food</option>
+																<option value="">Sports</option>
+																<option value="">Concerts</option>
+																<option value="">Live Shows</option>
+																<option value="">Drama/Theater</option>
+																<option value="">Motivational Speakers</option>
+																<option value="">Gaming</option>
+															</select>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md mr-md-2">
+												<div class="form-group">
+													<div class="form-field">
+														<div class="icon"><span class="icon-map-marker"></span>
+														</div>
+														<input type="text" class="form-control" placeholder="Location">
+													</div>
+												</div>
+											</div>
+											<div class="col-md">
+												<div class="form-group">
+													<div class="form-field">
+														<button type="submit"
+															class="form-control btn btn-primary">Search</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-section bg-light">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-9 pr-lg-4">
+					<div class="row">
+						<div class="col-md-12 ftco-animate">
+							<div class="job-post-item p-4 d-block d-lg-flex align-items-center">
+								<div class="one-third mb-4 mb-md-0">
+									<div class="job-post-item-header align-items-center">
+										<span class="subadge">Website and Software</span>
+										<h2 class="mr-3 text-black"><a href="#">Web Hackathon</a></h2>
+									</div>
+									<div class="job-post-item-body d-block d-md-flex">
+										<div class="mr-3"><span class="icon-layers"></span> <a href="#">University of
+												Windsor</a></div>
+										<div><span class="icon-my_location"></span> <span>Windsor, ON, CA</span></div>
+									</div>
+								</div>
+
+								<div class="one-forth ml-auto d-flex align-items-center mt-4 md-md-0">
+									<div>
+										<a href="#" id="btnFav"
+											class="icon text-center d-flex justify-content-center align-items-center icon mr-2">
+											<span class="icon-heart"></span>
+										</a>
+									</div>
+									<a href="#" data-toggle="modal" data-target="#myModal"
+										class="btn btn-primary py-2">Participate</a>
+								</div>
+							</div>
+						</div><!-- end -->
+
+						<div class="col-md-12 ftco-animate">
+							<div class="job-post-item p-4 d-block d-lg-flex align-items-center">
+								<div class="one-third mb-4 mb-md-0">
+									<div class="job-post-item-header align-items-center">
+										<span class="subadge">Food</span>
+										<h2 class="mr-3 text-black"><a href="#">PAN Cakes Workshop</a>
+										</h2>
+									</div>
+									<div class="job-post-item-body d-block d-md-flex">
+										<div class="mr-3"><span class="icon-layers"></span> <a href="#">Good Community
+												Lounge, Toronto</a></div>
+										<div><span class="icon-my_location"></span> <span>Toronto, ON, CA</span></div>
+									</div>
+								</div>
+
+								<div class="one-forth ml-auto d-flex align-items-center mt-4 md-md-0">
+									<div>
+										<a href="#" id="btnFav"
+											class="icon text-center d-flex justify-content-center align-items-center icon mr-2">
+											<span class="icon-heart"></span>
+										</a>
+									</div>
+									<a href="#" data-toggle="modal" data-target="#myModal"
+										class="btn btn-primary py-2">Participate</a>
+								</div>
+							</div>
+						</div><!-- end -->
+
+						<div class="col-md-12 ftco-animate">
+							<div class="job-post-item p-4 d-block d-lg-flex align-items-center">
+								<div class="one-third mb-4 mb-md-0">
+									<div class="job-post-item-header align-items-center">
+										<span class="subadge">Gaming</span>
+										<h2 class="mr-3 text-black"><a href="#">PubG Game Night</a></h2>
+									</div>
+									<div class="job-post-item-body d-block d-md-flex">
+										<div class="mr-3"><span class="icon-layers"></span> <a href="#"> Windsor Youth
+												Society </a></div>
+										<div><span class="icon-my_location"></span> <span>Windsor, ON, CA</span></div>
+									</div>
+								</div>
+
+								<div class="one-forth ml-auto d-flex align-items-center mt-4 md-md-0">
+									<div>
+										<a href="#" id="btnFav"
+											class="icon text-center d-flex justify-content-center align-items-center icon mr-2">
+											<span class="icon-heart"></span>
+										</a>
+									</div>
+									<a href="#" data-toggle="modal" data-target="#myModal"
+										class="btn btn-primary py-2">Participate</a>
+								</div>
+							</div>
+						</div><!-- end -->
+
+						<div class="col-md-12 ftco-animate">
+							<div class="job-post-item p-4 d-block d-lg-flex align-items-center">
+								<div class="one-third mb-4 mb-md-0">
+									<div class="job-post-item-header align-items-center">
+										<span class="subadge">Health & Science</span>
+										<h2 class="mr-3 text-black"><a href="#"> Human in Emergency Act Workshop </a>
+										</h2>
+									</div>
+									<div class="job-post-item-body d-block d-md-flex">
+										<div class="mr-3"><span class="icon-layers"></span> <a href="#">University of
+												Toronto, Toronto</a></div>
+										<div><span class="icon-my_location"></span> <span>Toronto, ON, CA</span></div>
+									</div>
+								</div>
+
+								<div class="one-forth ml-auto d-flex align-items-center mt-4 md-md-0">
+									<div>
+										<a href="#" id="btnFav"
+											class="icon text-center d-flex justify-content-center align-items-center icon mr-2">
+											<span class="icon-heart"></span>
+										</a>
+									</div>
+									<a href="#" data-toggle="modal" data-target="#myModal"
+										class="btn btn-primary py-2">Participate</a>
+								</div>
+							</div>
+						</div><!-- end -->
+
+					</div>
+					<div class="row mt-5">
+						<div class="col text-center">
+							<div class="block-27">
+								<ul>
+									<li><a href="#">&lt;</a></li>
+									<li class="active"><span>1</span></li>
+									<li><a href="#">2</a></li>
+									<li><a href="#">3</a></li>
+									<li><a href="#">4</a></li>
+									<li><a href="#">5</a></li>
+									<li><a href="#">&gt;</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 sidebar">
+					<div class="sidebar-box bg-white p-4 ftco-animate">
+						<h3 class="heading-sidebar">Browse Category</h3>
+						<form action="#" class="search-form mb-3">
+							<div class="form-group">
+								<span class="icon icon-search"></span>
+								<input type="text" class="form-control" placeholder="Search...">
+							</div>
+						</form>
+						<form action="#" class="browse-form">
+							<label for="option-job-1"><input type="checkbox" id="option-job-1" name="vehicle" value=""
+									checked> Website &amp; Software</label><br>
+							<label for="option-job-2"><input type="checkbox" id="option-job-2" name="vehicle" value="">
+								Education &amp; Training</label><br>
+							<label for="option-job-3"><input type="checkbox" id="option-job-3" name="vehicle" value="">
+								Graphics Design</label><br>
+							<label for="option-job-4"><input type="checkbox" id="option-job-4" name="vehicle" value="">
+								Accounting &amp; Finance</label><br>
+							<label for="option-job-5"><input type="checkbox" id="option-job-5" name="vehicle" value="">
+								Restaurant &amp; Food</label><br>
+							<label for="option-job-6"><input type="checkbox" id="option-job-6" name="vehicle" value="">
+								Health &amp; Hospital</label><br>
+						</form>
+					</div>
+
+					<div class="sidebar-box bg-white p-4 ftco-animate">
+						<h3 class="heading-sidebar">Select Location</h3>
+						<form action="#" class="search-form mb-3">
+							<div class="form-group">
+								<span class="icon icon-search"></span>
+								<input type="text" class="form-control" placeholder="Search...">
+							</div>
+						</form>
+						<form action="#" class="browse-form">
+							<label for="option-location-1"><input type="checkbox" id="option-location-1" name="vehicle"
+									value="" checked> Sydney, Australia</label><br>
+							<label for="option-location-2"><input type="checkbox" id="option-location-2" name="vehicle"
+									value=""> New York, United States</label><br>
+							<label for="option-location-3"><input type="checkbox" id="option-location-3" name="vehicle"
+									value=""> Tokyo, Japan</label><br>
+							<label for="option-location-4"><input type="checkbox" id="option-location-4" name="vehicle"
+									value=""> Manila, Philippines</label><br>
+							<label for="option-location-5"><input type="checkbox" id="option-location-5" name="vehicle"
+									value=""> Seoul, South Korea</label><br>
+							<label for="option-location-6"><input type="checkbox" id="option-location-6" name="vehicle"
+									value=""> Western City, UK</label><br>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="ftco-footer ftco-bg-dark ftco-section">
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col-md">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2">EventMine</h2>
+						<p> Mine of the all the events you wanted to attend. You can find all free events that suits you
+							the best. You can find various categories of events so it makes easy to find all those
+							events you are looking for. </p>
+						<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+							<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+							<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+							<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-md">
+					<div class="ftco-footer-widget mb-4 ml-md-4">
+						<h2 class="ftco-heading-2">Account</h2>
+						<ul class="list-unstyled">
+							<li><a href="login.html" class="pb-1 d-block">My Account</a></li>
+							<li><a href="login.html" class="pb-1 d-block">Sign In</a></li>
+							<li><a href="signup.html" class="pb-1 d-block">Create Account</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2">Have a Questions?</h2>
+						<div class="block-23 mb-3">
+							<ul>
+								<li><span class="icon icon-map-marker"></span>
+									<span class="text">
+										University of Windsor,
+										401 Sunset Ave, Windsor, ON N9B 3P4
+									</span></li>
+								<li><a href="#"><span class="icon icon-phone"></span>
+										<span class="text">
+											+1 (519) 253-3000
+										</span></a></li>
+								<li><a href="#"><span class="icon icon-envelope"></span><span
+											class="text">info@eventexpsys.com</span></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<p style="text-align: center;"> Copyright © 2020 All rights reserved </p>
+	</footer>
+
+	<!-- Modal Starts -->
+	<div class="modal fade" id="myModal" role="dialog">
+		<div class="modal-dialog">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title">EventMine - Regarding Participation</h4>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+				<div class="modal-body" style="text-align: center; color: black;">
+					<img src="images/done.gif" height="80px" width="90px" />
+					<p>Your Registration in this event is done. Please be on-time.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Modal Ends -->
+
+	<!-- loader -->
+	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+				stroke="#F96D00" /></svg></div>
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-migrate-3.0.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/jquery.animateNumber.min.js"></script>
+	<script src="js/scrollax.min.js"></script>
+	<script
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+	<script src="js/google-map.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>
