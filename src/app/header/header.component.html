@@ -21,11 +21,11 @@
     
      <div class="spacer"></div>
       <!-- <app-signup></app-signup>  -->
-      <a href="./home/home.component.html" >Home</a>
-      <a href="#" >Contact Us</a>
-      <a href="#">Login</a>
-      <a href="./signup/signup.component.html">Signup</a>
-      
+      <a href="#" (click)="onSelect('home')">Home</a>
+      <a href="#"  (click)="onSelect('contact-us')">Contact Us</a>
+      <a href="#" (click)="onSelect('login')">Login</a>
+      <a href="#" (click)="onSelect('sign-up')">Signup</a>
+      <!-- ./signup/signup.component.html-->
       <!-- <div class="spacer1"></div>
       <app-server></app-server> -->
      

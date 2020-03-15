@@ -28,8 +28,11 @@
 </div> -->
 <!-- Heading -->
  
-<app-header></app-header>
-<app-home></app-home>
+<app-header (featureSelected)= "onNavigate($event)"></app-header>
+<app-home *ngIf="loadedFeature === 'home'"></app-home>
+<app-signup *ngIf="loadedFeature === 'sign-up'"></app-signup>
+<app-login *ngIf="loadedFeature === 'login'"></app-login>
+<app-contact *ngIf="loadedFeature === 'contact-us'"></app-contact>
 
 <!-- Heading -->
 <div class="content" role="main">

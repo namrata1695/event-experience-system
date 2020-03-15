@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Event Experience System';
+  loadedFeature = 'home';
+  onNavigate(feature: string){
+    this.loadedFeature = feature;
+  }
 }
